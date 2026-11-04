@@ -1,4 +1,4 @@
-![Uploading Без названия315_20261105075038.png…]()
+![Uploading Без названия315_20261105075038.png…](logo)
 
 # Условия использования CeriumCore
 ## Type version 1.11
