@@ -1,3 +1,5 @@
+![Uploading Без названия315_20261105075038.png…]()
+
 # Условия использования CeriumCore
 ## Type version 1.11
 ## Lang RU
