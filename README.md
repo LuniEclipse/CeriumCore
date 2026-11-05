@@ -1,4 +1,10 @@
-![alt](https://i.ibb.co/XxjV3FQD/logo.png)
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://i.ibb.co/XxjV3FQD/logo.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://i.ibb.co/XxjV3FQD/logo.png">
+    <img alt="CeriumCore Banner" src="https://i.ibb.co/XxjV3FQD/logo.png" width="100%">
+  </picture>
+</p>
 
 
 # Условия использования CeriumCore
