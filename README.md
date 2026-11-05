@@ -1,4 +1,4 @@
-![alt](https://i.ibb.co/XxjV3FQD/logo.png).
+![alt](https://i.ibb.co/XxjV3FQD/logo.png)
 
 
 # Условия использования CeriumCore
