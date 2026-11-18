@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧪 CeriumCore
+# × CeriumCore ×
 
 **Ядро для текстур-паков и Lua-плагинов в Blockman GO (Sky Pixel)**
 **Texture pack & Lua plugin core for Blockman GO (Sky Pixel)**
@@ -184,5 +184,5 @@ More: [`docs/`](docs/) or email `luniaryfoundstudio@gmail.com`.
 Custom terms. See [`TERMS.md`](TERMS.md) / [`TERMS.md`](TERMS.md).
 
 - Original author: **MissGera**
-- Co-authors: **DeepSeek**, **Claude**
+- Created with: **DeepSeek**, **Claude**
 - VForge: https://vforge.pythonanywhere.com
