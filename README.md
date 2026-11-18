@@ -1,36 +1,188 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://i.ibb.co/XxjV3FQD/logo.png">
-    <source media="(prefers-color-scheme: light)" srcset="https://i.ibb.co/XxjV3FQD/logo.png">
-    <img alt="CeriumCore Banner" src="https://i.ibb.co/XxjV3FQD/logo.png" width="100%">
-  </picture>
-</p>
+<div align="center">
 
+# 🧪 CeriumCore
 
-# Условия использования CeriumCore
-## Type version 1.11
-## Lang RU
+**Ядро для текстур-паков и Lua-плагинов в Blockman GO (Sky Pixel)**
+**Texture pack & Lua plugin core for Blockman GO (Sky Pixel)**
 
-## 1. Обычное использование
-- 1. Разрешено использовать ядро для установки текстур-паков и плагинов в личных целях.
-- 2. Запрещено продавать само ядро, а также паки или плагины, распространяемые с ним, без разрешения автора.
-- 3. Запрещено выдавать CeriumCore за свой продукт, даже если вы поменяли пару строк.
-- 4. Автор не несёт ответственности за баны, потерю данных и поломки игры.
-- 5. При публикации видео/поста в какие-либо соц. сети, например YouTube, Telegram, указывать авторство (MissGera) желательно, но не требуется.
+[![Version](https://img.shields.io/badge/version-1.12.1%20Nova-4DD8D8?style=flat-square)](https://vforge.pythonanywhere.com/pack/35)
+[![Build](https://img.shields.io/badge/build-11212-blue?style=flat-square)]()
+[![Lang](https://img.shields.io/badge/lang-RU%20%7C%20EN-green?style=flat-square)]()
+[![Platform](https://img.shields.io/badge/platform-Android%20%7C%20Emulator-orange?style=flat-square)]()
+[![License](https://img.shields.io/badge/license-Custom%20Terms-red?style=flat-square)](TERMS.md)
 
-## 2. Модификации и производные проекты
-- 1. Разрешено изменять код для личного использования.
-- 2. При публикации ребилда/мода/своего ядра на базе CeriumCore обязательно указывать оригинального автора (MissGera). Ссылку на VForge указывать желательно.
-- 3. Запрещено продавать производные проекты без письменного разрешения автора.
-- 4. Запрещено убирать или скрывать упоминание авторства в коде и README.
-- 5. Производный проект не должен называться «CeriumCore» — нужно своё уникальное имя.
+[Скачать](https://vforge.pythonanywhere.com/pack/35) · [Условия](TERMS.md) · [Changelog](CHANGELOG.md) · [Telegram](https://t.me/korobkageri) · [YouTube](https://youtube.com/@missgeraa)
 
-## 3. Плагины и сторонний контент
-- 1. Автор ядра не отвечает за код сторонних плагинов.
-- 2. Плагины запускаются на ваш страх и риск. Вы сами должны проверять что вы скачиваете.
-- 3. Запрещено распространять плагины, текстуры и иной контент, нарушающий правила Blockman Go / VForge.
+</div>
 
-## 4. Общие положения
-- 1. Используя CeriumCore, вы автоматически соглашаетесь с данными условиями.
-- 2. Автор вправе изменять условия; актуальная версия всегда в последних версиях CeriumCore, а также в соц. сетях автора.
-- 3. Условия использования касаются абсолютно всех версий CeriumCore.
+---
+
+## 🇷🇺 Русский
+
+### Что это?
+
+**CeriumCore** — ядро (скрипт внутри `g20151633.zip`), которое запускается в **Sky Pixel** и позволяет:
+
+- 🎨 Менять текстуры игры в 1-м движке через удобное меню
+- 🧩 Подключать Lua-плагины (с собственным SDK)
+- 🔁 Держать **разные паки на 1-м и 2-м движке** одновременно
+- 💾 Сохранять **профили** «пак + набор плагинов»
+- 🛠 Иметь под рукой инструменты: бэкап, сброс, дамп, диагностика, проверка ZIP
+- 🌐 Переключать **RU/EN**, выбирать из **5 тем**, настраивать масштаб и угол лаунчера
+- 📊 Смотреть **FPS-оверлей** прямо в игре
+
+> ⚠️ Ядро работает **только в Sky Pixel**. На других играх — не запустится (но код можно перенести вручную).
+
+### Быстрый старт
+
+1. Скачай архив: **[vforge.pythonanywhere.com/pack/35](https://vforge.pythonanywhere.com/pack/35)**
+2. Скопируй его по пути:
+   ```
+   /storage/emulated/0/Android/data/com.sandboxol.blockymods/files/Download/SandboxOL/BlockManv2/map_temp/g20151633/
+   ```
+3. Замени существующий `g20151633.zip` скачанным (кнопка «Перезаписать» / «Заменить»). Рекомендую **MT Manager**.
+4. Зайди в **Sky Pixel** — в углу появится кнопка **CERIUM**.
+
+Подробная инструкция: [`docs/INSTALL_RU.md`](docs/INSTALL_RU.md)
+
+### Установка текстур-пака
+
+1. Скачай пак с VForge.
+2. Распакуй в:
+   ```
+   .../g20151633/cerium-texture/
+   ```
+   Внутри созданной папки должны быть: `texturepack.zip`, `manifest.json`, опционально `preview.png`.
+3. Зайди в Sky Pixel → **CERIUM** → вкладка **PACKS** → **APPLY**.
+4. Подожди 3–10 секунд, выйди и зайди в игру.
+
+### Установка плагина
+
+1. Скачай плагин.
+2. Распакуй в:
+   ```
+   .../g20151633/cerium-scripts/
+   ```
+   Внутри: `script.lua`, опционально `manifest.json`.
+3. В меню → вкладка **PLUGINS** → **ON** → перезайди (или нажми **RUN**).
+
+### Что нового в 1.12.1 «Nova»?
+
+- Полностью новый интерфейс с 6 вкладками: PACKS, PLUGINS, PROFILES, TOOLS, LOG, SETTINGS
+- SDK для плагинов: `Cerium.on`, `Cerium.registerTool`, `Cerium.config` и др.
+- Профили, избранное, сортировка/фильтр, drift-детект, autofix
+- RU/EN, 5 тем, FPS-оверлей, 4 угла лаунчера
+- Независимые паки на V1 и V2
+
+Полный список: [`CHANGELOG.md`](CHANGELOG.md)
+
+### FAQ
+
+**Могут ли забанить?**
+В Blockman GO нет проверки клиентских текстур. Ядро не детектится. Риск — только если пак содержит любые читы/админ-панели. Не показывай ничего важным лицам БГ.
+
+**Почему не работают текстуры?**
+Проверь: правильный путь, имя `g20151633.zip` (без `(1)`, `qwe` и т.п.), `texturepack.zip` внутри папки, зашёл именно в **Sky Pixel**.
+
+**Работает на iOS?**
+Нет. Нет доступа к папке игры. Только Android и эмуляторы (BlueStacks, LDPlayer, NoxPlayer).
+
+**Вирусы есть?**
+В паках с VForge — нет, они проверяются. Но любой Lua-код потенциально может быть стиллером. Скачивай только с VForge.
+
+Больше вопросов: [`docs/`](docs/) или пиши на `luniaryfoundstudio@gmail.com`.
+
+### Поддержать проект
+
+⭐ Поставь звезду репозиторию · 🔗 Поделись с друзьями · 🐞 Сообщай о багах · 💬 Поддержи авторов в комментариях на VForge
+
+---
+
+## 🇬🇧 English
+
+### What is this?
+
+**CeriumCore** is a core (a script inside `g20151633.zip`) that runs in **Sky Pixel** and lets you:
+
+- 🎨 Change game textures via a built-in menu
+- 🧩 Load Lua plugins (with its own SDK)
+- 🔁 Keep **different packs on engine 1 and engine 2** at the same time
+- 💾 Save **profiles** "pack + plugin set"
+- 🛠 Use tools: backup, reset, dump, diagnostics, ZIP check
+- 🌐 Switch **RU/EN**, pick from **5 themes**, adjust scale and launcher corner
+- 📊 See an **FPS overlay** right in-game
+
+> ⚠️ Works **only in Sky Pixel**. Won't run in other games (but the code can be ported manually).
+
+### Quick Start
+
+1. Download: **[vforge.pythonanywhere.com/pack/35](https://vforge.pythonanywhere.com/pack/35)**
+2. Copy it to:
+   ```
+   /storage/emulated/0/Android/data/com.sandboxol.blockymods/files/Download/SandboxOL/BlockManv2/map_temp/g20151633/
+   ```
+3. Replace the existing `g20151633.zip` (Overwrite / Replace). **MT Manager** recommended.
+4. Open **Sky Pixel** — a **CERIUM** button appears in the corner.
+
+Full guide: [`docs/INSTALL_EN.md`](docs/INSTALL_EN.md)
+
+### Installing a texture pack
+
+1. Download a pack from VForge.
+2. Extract to:
+   ```
+   .../g20151633/cerium-texture/
+   ```
+   The created folder should contain: `texturepack.zip`, `manifest.json`, optional `preview.png`
+3. Open Sky Pixel → **CERIUM** → **PACKS** tab → **APPLY**.
+4. Wait 3–10 seconds, exit and re-enter the game.
+
+### Installing a plugin
+
+1. Download a plugin.
+2. Extract to:
+   ```
+   .../g20151633/cerium-scripts/
+   ```
+   Must contain: `script.lua`, optional `manifest.json`.
+3. Menu → **PLUGINS** tab → **ON** → re-enter (or press **RUN**).
+
+### What's new in 1.12.1 "Nova"?
+
+- Brand-new UI with 6 tabs: PACKS, PLUGINS, PROFILES, TOOLS, LOG, SETTINGS
+- Plugin SDK: `Cerium.on`, `Cerium.registerTool`, `Cerium.config` and more
+- Profiles, favorites, sort/filter, drift detection, autofix
+- RU/EN, 5 themes, FPS overlay, 4 launcher corners
+- Independent packs on V1 and V2
+
+Full list: [`CHANGELOG.md`](CHANGELOG.md)
+
+### FAQ
+
+**Can I get banned?**
+Blockman GO doesn't check client textures. The core is undetectable. Risk only if the pack contains cheats/admin panels. Don't show mods to moderators.
+
+**Textures don't work?**
+Check: correct path, file name `g20151633.zip` (no `(1)`, `qwe`, etc.), `texturepack.zip` inside the folder, and that you entered **Sky Pixel**.
+
+**Does it work on iOS?**
+No. No access to the game folder. Android and emulators only (BlueStacks, LDPlayer, NoxPlayer).
+
+**Any viruses?**
+Packs from VForge — no, they're reviewed. But any Lua code can potentially be a stealer. Download only from VForge.
+
+More: [`docs/`](docs/) or email `luniaryfoundstudio@gmail.com`.
+
+### Support
+
+⭐ Star the repo · 🔗 Share with friends · 🐞 Report bugs · 💬 Support authors on VForge
+
+---
+
+## 📜 License / Лицензия
+
+Custom terms. See [`TERMS.md`](TERMS.md) / [`TERMS.md`](TERMS.md).
+
+- Original author: **MissGera**
+- Co-authors: **DeepSeek**, **Claude**
+- VForge: https://vforge.pythonanywhere.com
