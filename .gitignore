@@ -1,0 +1,19 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Builds / dumps
+app_resources_dump*/
+cerium.log
+plugins.lua
+plugins_config.json
+cerium_config.json
+
+# Temp
+*.ctmp
+*.tmp
