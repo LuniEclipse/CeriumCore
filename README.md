@@ -65,7 +65,7 @@
    .../g20151633/cerium-scripts/
    ```
    Внутри: `script.lua`, опционально `manifest.json`.
-3. В меню → вкладка **PLUGINS** → **ON** → перезайди (или нажми **RUN**).
+3. В меню → вкладка **PLUGINS** → **Пуск**.
 
 ### Что нового в 1.12.1 «Nova»?
 
@@ -146,7 +146,7 @@ Full guide: [`docs/INSTALL_EN.md`](docs/INSTALL_EN.md)
    .../g20151633/cerium-scripts/
    ```
    Must contain: `script.lua`, optional `manifest.json`.
-3. Menu → **PLUGINS** tab → **ON** → re-enter (or press **RUN**).
+3. Menu → **PLUGINS** tab → **Run**.
 
 ### What's new in 1.12.1 "Nova"?
 
