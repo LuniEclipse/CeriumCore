@@ -7,7 +7,7 @@
 **Texture pack & Lua plugin core for Blockman GO (5v5 Brawl)**
 
 [![Version](https://img.shields.io/badge/version-1.13%20Star-4DD8D8?style=flat-square)](https://vforge.pythonanywhere.com/pack/35)
-[![Build](https://img.shields.io/badge/build-11212-blue?style=flat-square)]()
+[![Build](https://img.shields.io/badge/build-11300-blue?style=flat-square)]()
 [![Lang](https://img.shields.io/badge/lang-RU%20%7C%20EN-green?style=flat-square)]()
 [![Platform](https://img.shields.io/badge/platform-Android%20%7C%20Emulator-orange?style=flat-square)]()
 [![License](https://img.shields.io/badge/license-Custom%20Terms-red?style=flat-square)](TERMS.md)
