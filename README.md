@@ -67,14 +67,12 @@
    Внутри: `script.lua`, опционально `manifest.json`.
 3. В меню → вкладка **PLUGINS** → **Пуск**.
 
-### Что нового в 1.12.1 «Nova»?
+### Что нового в 1.13 «Star»?
 
-- Полностью новый интерфейс с 6 вкладками: PACKS, PLUGINS, PROFILES, TOOLS, LOG, SETTINGS
-- SDK для плагинов: `Cerium.on`, `Cerium.registerTool`, `Cerium.config` и др.
-- Профили, избранное, сортировка/фильтр, drift-детект, autofix
-- RU/EN, 5 тем, FPS-оверлей, 4 угла лаунчера
-- Независимые паки на V1 и V2
-
+- RunCode
+- Plugin Creator
+- Рабочие иконки паков
+- 
 Полный список: [`CHANGELOG.md`](CHANGELOG.md)
 
 ### FAQ
@@ -148,14 +146,12 @@ Full guide: [`docs/INSTALL_EN.md`](docs/INSTALL_EN.md)
    Must contain: `script.lua`, optional `manifest.json`.
 3. Menu → **PLUGINS** tab → **Run**.
 
-### What's new in 1.12.1 "Nova"?
+### What's new in 1.13 "Star"?
 
-- Brand-new UI with 6 tabs: PACKS, PLUGINS, PROFILES, TOOLS, LOG, SETTINGS
-- Plugin SDK: `Cerium.on`, `Cerium.registerTool`, `Cerium.config` and more
-- Profiles, favorites, sort/filter, drift detection, autofix
-- RU/EN, 5 themes, FPS overlay, 4 launcher corners
-- Independent packs on V1 and V2
-
+- RunCode
+- Plugin Creator
+- Working pack icons
+-
 Full list: [`CHANGELOG.md`](CHANGELOG.md)
 
 ### FAQ
