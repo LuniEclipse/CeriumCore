@@ -72,7 +72,7 @@
 - RunCode
 - Plugin Creator
 - Рабочие иконки паков
-- 
+
 Полный список: [`CHANGELOG.md`](CHANGELOG.md)
 
 ### FAQ
@@ -151,7 +151,7 @@ Full guide: [`docs/INSTALL_EN.md`](docs/INSTALL_EN.md)
 - RunCode
 - Plugin Creator
 - Working pack icons
--
+
 Full list: [`CHANGELOG.md`](CHANGELOG.md)
 
 ### FAQ
