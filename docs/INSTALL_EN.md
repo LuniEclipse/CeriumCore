@@ -1,4 +1,4 @@
-![logoguideen](https://i.ibb.co/bRmMs5Q8/330-20261126131321.png)
+![logoguideen](https://i.ibb.co/ksFYhZP6/330-20261126131547.png)
 # A detailed, complete guide to installing the CeriumCore kernel.
 ## Android:
 - Search for BG: **5v5 Brawl**
